@@ -1,0 +1,70 @@
+# Holomesh – Solana-Powered Decentralized Social Layer
+
+## Overview
+Holomesh is a **Solana-based decentralized social ecosystem** merging real-world identity, community, and commerce into one interoperable platform.  
+It uses **Reclaim Protocol** for **on-chain verification of credentials, proof of personhood, and digital achievements**, creating a trust mesh across social, educational, and professional communities.  
+
+Holomesh empowers users to **own their social graph, monetize interactions, and carry verified reputation across Web3 and Web2**.
+
+
+## Problem Statement
+- Traditional social networks are centralized, siloed, and non-verifiable.  
+- Communities on Telegram, Discord, or X cannot authenticate users, leading to scams and spam.  
+- Users cannot port verified reputation across ecosystems, limiting interoperability with DePIN, DeFi, and DAOs.
+
+---
+
+## Solution
+Holomesh solves these problems by:  
+1. **Verifiable Identity:** Connect social/professional proofs via Reclaim, earning **Holobadges**.  
+2. **Community Webs:** DAOs, clubs, and campuses create nodes forming a verified network.  
+3. **Reputation Bridge:** Universal profile carries credentials & trust scores across apps.  
+4. **On-Chain Utility:** Communities issue gated roles, token rewards, and credentials on **Solana**.
+
+---
+
+## Key Features
+- On-chain identity verification via Solana + Reclaim  
+- Tokenized reputation & rewards  
+- **Holomaps** – visualized verified networks  
+- Community-driven incentive system  
+- Interoperable social credentials for Web3 & Web2  
+
+
+## Roadmap
+| Quarter | Milestone | Tasks | Metrics |
+|---------|----------|-------|---------|
+| **Q4 2025** | MVP & Reclaim Integration | Launch Web Alpha, implement Reclaim login & proof APIs, onboard 100 beta users | 95% verification success |
+| **Q1 2026** | Community Network & Holomap | Deploy community mesh, enable group creation & wallet-linked rewards | 20+ verified communities, ≥500 members |
+| **Q2 2026** | Reputation Economy Launch | Release reputation dashboard, token-based incentives, public launch | ≥2,000 active users, 10 partnerships |
+
+
+## Primary KPIs
+- Active Users: ≥2,000 by Q2 2026  
+- Community Nodes: 20+ verified communities  
+- Verification Success Rate: ≥95%  
+- Token Reward Distribution: ≥80% claimed  
+- Retention: ≥80% post-beta  
+
+## Hackathon Alignment
+- **Impact:** Solves tangible social & identity issues.  
+- **Execution:** MVP ready for Solana demo, integrating **Reclaim & tokenized reputation**.  
+- **Community & Mentorship Fit:** Aligned with Superteam Balkan mentorship.  
+- **Blockchain Relevance:** Solana central for fast, low-fee verification.  
+- **Wow Factor:** “LinkedIn + Discord + Lens Protocol” fusion in a decentralized, reputation-aware network.
+
+## Technical Stack
+- **Blockchain:** Solana  
+- **Identity Verification:** Reclaim Protocol  
+- **Frontend:** React / Next.js / Mobile Web App  
+- **Smart Contracts:** Rust (Anchor framework)  
+- **Data Storage:** On-chain verification + optional IPFS  
+- **Tokens & Incentives:** SPL tokens for rewards 
+
+
+## How to Use
+1. Connect Solana wallet (Phantom, Solflare).  
+2. Verify identity via Reclaim.  
+3. Join verified communities.  
+4. Participate and earn **Holotokens**.  
+5. Explore **Holomap** to visualize your network.
