@@ -58,7 +58,52 @@ Holomesh solves these problems by:
 - **Frontend:** React / Next.js / Mobile Web App  
 - **Smart Contracts:** Rust (Anchor framework)  
 - **Data Storage:** On-chain verification + optional IPFS  
-- **Tokens & Incentives:** SPL tokens for rewards  
+- **Tokens & Incentives:** SPL tokens for rewards
+
+## Security Statement
+
+At Holomesh, security is a core design principle — not an afterthought.
+Our goal is to ensure that every user interaction, credential verification, and community transaction is secure, verifiable, and privacy-preserving.
+
+1. Identity & Credential Verification
+
+Holomesh leverages Reclaim Protocol to handle all credential proofs in a zero-knowledge manner.
+This means that users can verify ownership of social or professional identities (e.g., GitHub, Twitter, LinkedIn, Wallets) without exposing raw credentials.
+No sensitive data is stored on our servers, proofs are verified directly on-chain.
+
+2. Smart Contract Security
+
+Our smart contracts are written in Rust using the Anchor framework, which enforces strict type-safety and predictable behavior during runtime.
+We follow best practices including:
+
+Code modularization and consistent linting
+
+Explicit checks for authorization and ownership
+
+Unit testing for core contract functions
+
+Avoidance of reentrancy and unchecked external calls
+
+
+Before mainnet deployment, the contracts will undergo a third-party audit to ensure zero-critical vulnerabilities remain.
+
+3. Data Privacy & Storage
+
+Holomesh uses IPFS for decentralized storage of optional metadata, ensuring that users maintain control over their data.
+Only non-sensitive identifiers (hashes, proof IDs, and badge metadata) are written on-chain — no personal information is ever exposed or retrievable by third parties.
+
+4. Wallet & Transaction Layer
+
+All interactions (login, reward claiming, community creation) are executed via Solana wallet signatures (Phantom, Solflare, Backpack).
+Private keys remain with the user — Holomesh never requests custody or private key access.
+Transaction payloads are verified client-side before submission to Solana RPC endpoints.
+
+5. Continuous Security Awareness
+
+We consider security an ongoing process.
+The Holomesh team actively monitors dependencies and libraries for vulnerabilities, plans periodic code reviews, and will adopt Adevar Labs’ audit recommendations if selected.
+Our roadmap also includes implementing multi-sig governance for key admin operations in Q2 2026.
+
 
 
 ## How to Use
