@@ -62,7 +62,7 @@ Holomesh solves these problems by:
 
 ## Security Statement
 
-At Holomesh, security is a core design principle — not an afterthought.
+At Holomesh, security is a core design principle, not an afterthought.
 Our goal is to ensure that every user interaction, credential verification, and community transaction is secure, verifiable, and privacy-preserving.
 
 1. Identity & Credential Verification
@@ -90,7 +90,7 @@ Before mainnet deployment, the contracts will undergo a third-party audit to ens
 3. Data Privacy & Storage
 
 Holomesh uses IPFS for decentralized storage of optional metadata, ensuring that users maintain control over their data.
-Only non-sensitive identifiers (hashes, proof IDs, and badge metadata) are written on-chain — no personal information is ever exposed or retrievable by third parties.
+Only non-sensitive identifiers (hashes, proof IDs, and badge metadata) are written on-chain, no personal information is ever exposed or retrievable by third parties.
 
 4. Wallet & Transaction Layer
 
