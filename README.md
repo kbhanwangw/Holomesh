@@ -104,12 +104,68 @@ We consider security an ongoing process.
 The Holomesh team actively monitors dependencies and libraries for vulnerabilities, plans periodic code reviews, and will adopt Adevar Labs’ audit recommendations if selected.
 Our roadmap also includes implementing multi-sig governance for key admin operations in Q2 2026.
 
+## Deployment & Usage
+
+This section explains how to set up and interact with the Holomesh prototype using the Solana and Anchor frameworks.
+(Note: The following commands use placeholder examples. Replace them with actual paths and program IDs once your smart contracts are live.)
+
+## Prerequisites
+
+Before deployment, ensure you have the following installed:
+
+Solana CLI (v1.18 or higher)
+
+Anchor Framework
+
+Node.js (v18 or later)
+
+NPM or Yarn
+
+## Local Setup
+
+# Clone the repository
+git clone https://github.com/<yourusername>/Holomesh.git
+
+# Navigate into the project directory
+cd Holomesh
+
+# Install frontend dependencies
+npm install
+
+# Build smart contracts (Anchor)
+anchor build
+
+## Deployment
+
+# Deploy smart contracts to Solana Devnet
+anchor deploy
+
+# Confirm deployment (replace PROGRAM_ID with your actual one)
+solana program show <PROGRAM_ID>
+
+## Running the Frontend
+
+# Start the web app locally
+npm run dev
+
+## Once started, visit:
+http://localhost:3000 to access the Holomesh dashboard.
+
+## Usage Flow
+
+1. Connect Wallet: Use Phantom or Solflare wallet to sign in.
 
 
-## How to Use
-1. Connect Solana wallet (Phantom, Solflare).  
-2. Verify identity via Reclaim.  
-3. Join verified communities.  
-4. Participate and earn **Holotokens**.  
-5. Explore **Holomap** to visualize your network.
+2. Verify Identity: Complete on-chain verification via Reclaim Protocol.
+
+
+3. Create / Join Communities: Form or join verified groups.
+
+
+4. Earn Rewards: Interact and receive Holotokens as incentives.
+
+
+5. Explore Holomap: Visualize your verified network in real time.
+6. 
+
 
